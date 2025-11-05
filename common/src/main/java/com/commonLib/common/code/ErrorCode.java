@@ -1,4 +1,4 @@
-package com.hubEleven.common.code;
+package com.commonLib.common.code;
 
 import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
 

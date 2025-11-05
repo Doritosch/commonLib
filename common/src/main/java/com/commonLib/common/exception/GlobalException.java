@@ -1,6 +1,6 @@
-package com.hubEleven.common.exception;
+package com.commonLib.common.exception;
 
-import com.hubEleven.common.code.StatusCode;
+import com.commonLib.common.code.StatusCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

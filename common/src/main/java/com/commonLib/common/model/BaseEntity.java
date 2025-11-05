@@ -1,4 +1,4 @@
-package com.hubEleven.common.model;
+package com.commonLib.common.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;

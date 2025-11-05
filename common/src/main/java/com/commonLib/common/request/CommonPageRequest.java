@@ -1,4 +1,4 @@
-package com.hubEleven.common.request;
+package com.commonLib.common.request;
 
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

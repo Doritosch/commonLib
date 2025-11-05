@@ -1,4 +1,4 @@
-package com.hubEleven.common.annotation;
+package com.commonLib.common.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

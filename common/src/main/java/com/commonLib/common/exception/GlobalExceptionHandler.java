@@ -1,9 +1,8 @@
-package com.hubEleven.common.exception;
+package com.commonLib.common.exception;
 
-import static com.hubEleven.common.code.ErrorCode.*;
-
-import com.hubEleven.common.response.ApiResponse;
-import com.hubEleven.common.response.ApiResponseEntity;
+import com.commonLib.common.code.ErrorCode;
+import com.commonLib.common.response.ApiResponse;
+import com.commonLib.common.response.ApiResponseEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -19,6 +18,6 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
 	@ExceptionHandler(Exception.class)
 	public ResponseEntity<ApiResponse<Object>> handleException(final Exception e) {
-		return ApiResponseEntity.onFailure(SERVER_ERROR);
+		return ApiResponseEntity.onFailure(ErrorCode.SERVER_ERROR);
 	}
 }

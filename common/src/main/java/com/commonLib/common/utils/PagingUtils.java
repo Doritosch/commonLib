@@ -1,6 +1,6 @@
-package com.hubEleven.common.utils;
+package com.commonLib.common.utils;
 
-import com.hubEleven.common.response.CommonPageResponse;
+import com.commonLib.common.response.CommonPageResponse;
 import java.util.function.Function;
 import org.springframework.data.domain.Page;
 

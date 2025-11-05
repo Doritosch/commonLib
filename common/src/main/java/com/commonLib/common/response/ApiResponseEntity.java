@@ -1,7 +1,8 @@
-package com.hubEleven.common.response;
+package com.commonLib.common.response;
 
-import com.hubEleven.common.code.StatusCode;
-import com.hubEleven.common.code.SuccessCode;
+import com.commonLib.common.code.StatusCode;
+import com.commonLib.common.code.SuccessCode;
+
 import java.net.URI;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

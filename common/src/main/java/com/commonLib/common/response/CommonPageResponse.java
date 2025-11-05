@@ -1,4 +1,4 @@
-package com.hubEleven.common.response;
+package com.commonLib.common.response;
 
 import java.util.List;
 import org.springframework.data.domain.Page;
