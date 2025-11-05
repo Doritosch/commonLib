@@ -2,7 +2,6 @@ package com.commonLib.common.response;
 
 import com.commonLib.common.code.StatusCode;
 import com.commonLib.common.code.SuccessCode;
-
 import java.net.URI;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
