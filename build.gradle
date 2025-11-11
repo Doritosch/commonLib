@@ -26,3 +26,8 @@ subprojects {
         mavenCentral()
     }
 }
+
+// JitPack compatibility - delegate install task to common module
+task install {
+    dependsOn ':common:publishToMavenLocal'
+}

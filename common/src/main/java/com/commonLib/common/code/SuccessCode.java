@@ -1,7 +1,6 @@
 package com.commonLib.common.code;
 
 import static org.springframework.http.HttpStatus.OK;
-import static org.springframework.http.HttpStatus.CREATED;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
